@@ -1,9 +1,9 @@
 class Biome < Formula
   desc "A shell script to manage your app's environment."
   homepage "https://github.com/1egoman/biome"
-  url "https://github.com/1egoman/biome/archive/v0.6.2.tar.gz"
-  version "0.6.2"
-  sha1 "03e22bff1f8750adeda2d8942e02c91c7ffd4f12"
+  url "https://github.com/1egoman/biome/archive/0.7.tar.gz"
+  version "0.7.0"
+  sha256 "33a28a994dec1a5f4e55cb172bf5a8dc3c62e4f7a5795dfeb8f80cefc858a23a"
 
   def install
     cp "biome.sh", "biome"
